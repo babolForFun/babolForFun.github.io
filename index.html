@@ -46,7 +46,7 @@
 	//locate the IP
 	$geoplugin->locate();
 
-	echo "<!--I know who are you: "  .$geoplugin->ip .": <br />\n".
+	echo "Geolocation results for {$geoplugin->ip}: <br />\n".
 		"City: {$geoplugin->city} <br />\n".
 		"Region: {$geoplugin->region} <br />\n".
 		"Area Code: {$geoplugin->areaCode} <br />\n".
@@ -57,7 +57,7 @@
 		"Latitude: {$geoplugin->latitude} <br />\n".
 		"Currency Code: {$geoplugin->currencyCode} <br />\n".
 		"Currency Symbol: {$geoplugin->currencySymbol} <br />\n".
-		"Exchange Rate: {$geoplugin->currencyConverter} <br />\n-->";
+		"Exchange Rate: {$geoplugin->currencyConverter} <br />\n";
 ?>
 
 
